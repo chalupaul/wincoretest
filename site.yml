@@ -1,2 +1,5 @@
-name: get whoami info
-  win_command: whoami
+---
+- hosts: all
+  tasks:
+    - name: get whoami info
+      win_command: whoami

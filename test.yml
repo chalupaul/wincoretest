@@ -1,0 +1,2 @@
+name: get whoami info
+  win_command: whoami
